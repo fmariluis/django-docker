@@ -8,7 +8,5 @@ RUN apt-get update \
       gdal-bin \
       && rm -rf /var/lib/apt/lists/*
 
-COPY base.txt /tmp/base.txt
-RUN pip install -r /tmp/base.txt
-ADD development.txt /tmp/development.txt
-RUN pip install -r /tmp/development.txt
+COPY base.txt /tmp/requirements.txt
+RUN pip install -r /tmp/requirements.txt
