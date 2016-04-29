@@ -8,7 +8,7 @@ django-compressor==2.0
 django-contrib-comments==1.7.0
 django-crispy-forms==1.6.0
 django-datatables-view==1.13.0
-django-extensions==1.6.1
+django-extensions
 django-haystack==2.4.1
 django-hijack==2.1.1
 django-leaflet==0.18.1
@@ -25,9 +25,8 @@ elasticstack==0.4.0
 future==0.15.2
 geocoder==1.12.0
 hiredis==0.2.0
-ipdb==0.9.3
-ipython==4.2.0
-ipython==4.2.0
+ipdb
+ipython
 psycopg2==2.6.1
 python-dateutil==2.5.3
 redis==2.10.5
